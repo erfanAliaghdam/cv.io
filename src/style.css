@@ -5,3 +5,35 @@
     height: 450px;
     margin: 50px 20px 30px 20px;
 }
+@font-face {
+    font-family: 'Mina';
+    src: url(./fonts/Mina-Regular.ttf);
+}
+
+* {
+    font-family: 'Mina', sans-serif;
+}
+
+.text-shadow{
+    text-shadow: 2px 2px 12px #6889c76f;
+}
+
+.info-shadow{
+    box-shadow: #63cedca4 0px 0px 10px 0px;
+}
+
+.border-purple{
+    border: 2px solid #6c63cedc !important;
+}
+.bg-purple{
+    background-color: #6c63cedc !important;
+}
+.border-flat-blue{
+    border: 2px solid #4899d8 !important;
+}
+.bg-flat-blue{
+    background-color:  #4899d8 !important;
+}
+.border-2px{
+    border-width: 2px !important;
+}
